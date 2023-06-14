@@ -16,10 +16,20 @@ function updateProfile(profileData){
    email.innerText = profileData.email
 }
 
+function updateSkills(profileData){
+    const softskills = document.getElementById('profile_skills')
+    softskills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
+}
+
+function updateLanguage(profileData){
+    const language = document.getElementById('profile_languages')
+    language.innerHTML = profileData.languages.map(langg => `<li>${langg}</li>`).join('')
+}
+
 (async () =>{
     const profileData = await fetchProfileData()
     updateProfile(profileData)
-
-
+    updateSkills(profileData)
+    updateLanguage(profileData)
 
 })()
