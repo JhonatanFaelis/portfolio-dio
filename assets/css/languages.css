@@ -1,0 +1,14 @@
+.langueges{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.langueges li{
+    margin-right: 1rem;
+}
+
+.langueges i{
+    margin-right: 0.25rem;
+}

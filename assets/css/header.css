@@ -1,0 +1,48 @@
+body{
+    background-attachment: fixed;
+    /* background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.principal__container{   
+    border: 1px solid white;
+    border-radius: 1rem;
+    width: 50%;
+    margin: 1rem auto;
+    background-color: transparent;
+    color: white;
+}
+
+.cabecalho__container{
+    display: flex;
+}
+
+.cabecalho__container i{
+    margin-right: 0.25rem;
+    color: #474488;
+}
+
+.cabecalho__img{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho__img img{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.cabecalho__inf{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+}
+
