@@ -23,7 +23,7 @@ function updateSkills(profileData){
 
 function updateTec(profileData){
     const hardSkills = document.getElementById('tec')
-    hardSkills.innerHTML = profileData.skills.hardSkills.map(hard => `<li>${hard}</li>`).join('')
+    hardSkills.innerHTML = profileData.skills.hardSkills.logo.map(hard => `<li><img src="${hard.logo}" alt="${hard.name}"></li>`).join('')
 }
 
 function updateLanguage(profileData){
