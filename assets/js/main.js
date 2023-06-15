@@ -31,6 +31,11 @@ function updateLanguage(profileData){
     language.innerHTML = profileData.languages.map(langg => `<li>${langg}</li>`).join('')
 }
 
+function updateExp(profileData){
+    const exp = document.getElementById('exp')
+    exp.innerHTML = profileData.professionalExperience.map(exp => `<li><p>${exp.name}</p><p>${exp.period}</p><p>${exp.description}</p></li>                        `)
+}
+
 (async () =>{
     const profileData = await fetchProfileData()
     updateProfile(profileData)
