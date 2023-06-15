@@ -9,27 +9,27 @@
     "hardSkills": [
       {
         "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/JhonatanFaelis/portfolio-dio/blob/main/data/imgs/angular.png"
+        "logo": "https://raw.githubusercontent.com/JhonatanFaelis/portfolio-dio/main/data/imgs/angular.png"
       },
       {
         "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/JhonatanFaelis/portfolio-dio/blob/main/data/imgs/js.png"
+        "logo": "https://raw.githubusercontent.com/JhonatanFaelis/portfolio-dio/main/data/imgs/js.png"
       },
       {
         "name": "Jquery",
-        "logo": "https://raw.githubusercontent.com/JhonatanFaelis/portfolio-dio/blob/main/data/imgs/jquery.png"
+        "logo": "https://raw.githubusercontent.com/JhonatanFaelis/portfolio-dio/main/data/imgs/jquery.png"
       },
       {
         "name": "Bootstrap",
-        "logo": "https://raw.githubusercontent.com/JhonatanFaelis/portfolio-dio/blob/main/data/imgs/bootstrap.png"
+        "logo": "https://raw.githubusercontent.com/JhonatanFaelis/portfolio-dio/main/data/imgs/bootstrap.png"
       },
       {
         "name": "Sql",
-        "logo": "https://raw.githubusercontent.com/JhonatanFaelis/portfolio-dio/blob/main/data/imgs/sql.png"
+        "logo": "https://raw.githubusercontent.com/JhonatanFaelis/portfolio-dio/main/data/imgs/sql.png"
       },
       {
         "name": "C#",
-        "logo": "https://raw.githubusercontent.com/JhonatanFaelis/portfolio-dio/blob/main/data/imgs/csharp.png"
+        "logo": "https://raw.githubusercontent.com/JhonatanFaelis/portfolio-dio/main/data/imgs/csharp.png"
       }
     ],
     "softSkills": [
