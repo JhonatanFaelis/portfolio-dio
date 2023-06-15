@@ -17,15 +17,15 @@
       },
       {
         "name": "Jquery",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "logo": "https://raw.githubusercontent.com/JhonatanFaelis/portfolio-dio/blob/main/data/imgs/jquery.png"
       },
       {
         "name": "Bootstrap",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        "logo": "https://raw.githubusercontent.com/JhonatanFaelis/portfolio-dio/blob/main/data/imgs/bootstrap.png"
       },
       {
         "name": "Sql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "logo": "https://raw.githubusercontent.com/JhonatanFaelis/portfolio-dio/blob/main/data/imgs/sql.png"
       },
       {
         "name": "C#",
