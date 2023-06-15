@@ -36,11 +36,17 @@ function updateExp(profileData){
     exp.innerHTML = profileData.professionalExperience.map(exp => `<li><p>${exp.name}</p><p>${exp.period}</p><p>${exp.description}</p></li>                        `)
 }
 
+function updatePort(profileData){
+    const port = document.getElementById('port')
+    port.innerHTML = profileData.portfolio.map(port => `<li><p>${port.name}</p><a href='${port.url} target='_blank''>${port.url}</a></li>`).join('')
+}
+
 (async () =>{
     const profileData = await fetchProfileData()
     updateProfile(profileData)
     updateSkills(profileData)
     updateLanguage(profileData)
     updateTec(profileData)
+    updatePort(profileData)
 
 })()

@@ -41,18 +41,18 @@
     ]
   },
   "languages": [
-    "Português BR",
-    "Inglês (intermediário)"
+    "Português - BR",
+    "Inglês - (intermediário)"
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Projeto para Apresentação de Imóveis",
+      "url": "https://github.com/JhonatanFaelis/LandingPageSamira",
       "github": true
     },
     {
       "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "url": "https://github.com/JhonatanFaelis/portfolio-dio",
       "github": true
     }
   ],
